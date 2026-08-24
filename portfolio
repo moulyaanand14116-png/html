@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pooja Portfolio</title>
+</head>
+<body>
+    <header class="site header">
+    <nav class="navbar">
+        <div class="logo">moulya</div>
+        <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" title="toggle dark" aria-label="toggle dark mode">*</button>
+        <button class="menu-toggle" aria-label="toggle-navigation" aria-expanded="false">☰</button>
+    </nav>
+</header>
+<main>
+    <section class="hero section" id="hero">
+        <h1>Hi, I'm Moulya👋</h1>
+        <p class="tagline">I'm a passionate web developer from bengaluru</p>
+        <div class="hero button">
+            <a href="#projects" class="btn btn-primary">View my project</a>
+            <a href="#contact" class="btn btn-secondary">Contact me</a>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <h2>About Me</h2>
+        <div class="about content">
+            <figure class="profile-figure">
+                <img src="Chancellor.webp" alt="profile pic" width="200px">
+                <figurecaption>moulya</figurecaption>
+            </figure>
+            <div class="about-text">
+                <p>
+                    I love building things on the web.Currently learning HTMl, CSS, Javascript AND React
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item" data-level="90">HTML</div>
+            <div class="skill-item" data-level="80">CSS</div>
+            <div class="skill-item" data-level="70">JAVA</div>
+            <div class="skill-item" data-level="60">REACT</div>
+        </div>
+    </section>
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="project grid">
+            <article class="project-card" data category="web">
+                <img src="image jpg" alt="weather project" width="300px">
+                <h3>weather app</h3>
+                <p>Real time weather dashboard using openweather</p>
+                <div class="project-tag">
+                    <span class="tag">react</span>
+                    <span class="tag">api</span>
+                </div>
+                <a href="#" class="btn">Live demo</a>
+                <a href="#" class="btn">Github</a>
+            </article>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>get in touch</h2>
+        <p>Have a project in mind</p>
+        <form action="">
+            <div class="form group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form group">
+                <label for="subject">Subject</label>
+            <select name="subject" id="subject">
+                <option value="">Select a topic</option>
+                <option value="hire">I want to hire you</option>
+                <option value="collab">I want to collaborate</option>
+                <option value="others">Others</option>
+            </select>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" placeholder="Tell me about your project.."></textarea>
+            <button type="submit">Send Message 🚀</button>
+        </form>
+        <p>Email: <a href="mailto:pooja@gmail.com">pooja@gmail.com</a></p>
+    </section>
+    
+
+</main>
+    
+    <footer class="site-fotter">
+        <p>&copy; 2026 poojasri.All rights reserved</p>
+        <nav aria-label="social links">
+            <a href="github" target="_blank">github</a>
+            <a href="linkdin"
+
+        </nav>
+    </footer>
+</body>
+</html>
